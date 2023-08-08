@@ -16,7 +16,7 @@ const thoughtRoutes = require('./routes/api/thoughtRoutes');
 app.use('/api/users', userRoutes);
 app.use('/api/thoughts', thoughtRoutes);
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://aceresi95:password1234@cluster0.eatgszn.mongodb.net/', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://stephferg:pass8444@cluster0.eatgszn.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
